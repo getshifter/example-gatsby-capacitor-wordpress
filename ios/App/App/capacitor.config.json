@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.app",
+  "appName": "gatsby-starter-wordpress-typescript",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "public",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
