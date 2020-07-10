@@ -1,4 +1,4 @@
-# gatsby-starter-wordpress-typescript
+# example-gatsby-capacitor-wordpress
 The starter theme of Gatsby site with WordPress (Using WP API).
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
@@ -7,10 +7,10 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 You can deploy the demo site to the following services.
 
-[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/getshifter/gatsby-starter-wordpress-typescript)
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/getshifter/example-gatsby-capacitor-wordpress)
 
 
-[![netlifybutton](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/getshifter/gatsby-starter-wordpress-typescript)
+[![netlifybutton](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/getshifter/example-gatsby-capacitor-wordpress)
 
 
 ## Getting started
@@ -18,11 +18,11 @@ You can deploy the demo site to the following services.
 ### Create new site
 
 ```
-$ gatsby new gatsby-wordpress https://github.com/getshifter/gatsby-starter-wordpress-typescript
+$ gatsby new gatsby-wordpress https://github.com/getshifter/example-gatsby-capacitor-wordpress
 
 or
 
-$  npx gatsby-cli new gatsby-wordpress https://github.com/getshifter/gatsby-starter-wordpress-typescript
+$  npx gatsby-cli new gatsby-wordpress https://github.com/getshifter/example-gatsby-capacitor-wordpress
 ```
 
 ### Set your WordPress URL
@@ -85,7 +85,7 @@ Generated HTML will be placed in `public` directory.
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/getshifter/gatsby-starter-wordpress-typescript)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/getshifter/example-gatsby-capacitor-wordpress)
 
 ## PWA
 
