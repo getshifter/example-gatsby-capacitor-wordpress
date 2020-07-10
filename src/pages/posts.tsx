@@ -14,14 +14,33 @@ import Main from '../components/Main'
 type Props = RouteComponentProps & {
   data: SinglePostQuery
 }
+
 const Component: React.FC<Props> = (props) => {
+  const [elem, setSelem] = React.useState<JSX.Element>(<p>Loading....</p>)
+  const title = props.data.wordpressPost.title
+  const slug = props.data.wordpressPost.slug
+  React.useEffect(() => {
+    if (typeof window !== 'undefined') {
+      import('../components/capacitor/Share')
+      .then(({SharePost}) => {
+        setSelem(<SharePost content={{
+          title,
+          dialogTitle: `Share the ${title}`,
+          url: `https://example.com/${slug}`
+        }}/>)
+      }).catch(e => {
+        setSelem(<p>{e}</p>)
+      })
+    }
+  }, [])
   return (
     <Layout>
-      <Helmet title={props.data.wordpressPost.title} />
-      <Jumbotron title={props.data.wordpressPost.title} />
+      <Helmet title={title} />
+      <Jumbotron title={title} />
       <Main>
-        <h1 dangerouslySetInnerHTML={{__html: props.data.wordpressPost.title}} />
+        <h1 dangerouslySetInnerHTML={{__html: title}} />
         <section dangerouslySetInnerHTML={{__html: props.data.wordpressPost.content}} />
+        {elem}
         <Link to='/'>Home</Link>
       </Main>
     </Layout>
