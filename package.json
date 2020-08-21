@@ -46,7 +46,7 @@
     "@types/reactstrap": "8.5.1",
     "gatsby-plugin-graphql-codegen": "2.7.1",
     "prettier": "2.0.5",
-    "ts-node": "8.10.2"
+    "ts-node": "9.0.0"
   },
   "contributors": [
     "fabien0102 <fabien0102@gmail.com>",
