@@ -7,7 +7,7 @@
     "@capacitor/cli": "^2.2.0",
     "@capacitor/core": "^2.2.0",
     "@capacitor/ios": "2.4.2",
-    "@ionic/pwa-elements": "^1.5.2",
+    "@ionic/pwa-elements": "^3.0.0",
     "@ionic/react-hooks": "^0.0.8",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.20.27",
