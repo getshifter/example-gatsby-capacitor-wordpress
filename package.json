@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "author": "Shifter Team <hello@getshifter.io>",
   "dependencies": {
-    "@capacitor/cli": "^2.2.0",
-    "@capacitor/core": "^2.2.0",
-    "@capacitor/ios": "2.4.2",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "6.1.2",
     "@ionic/pwa-elements": "^3.0.0",
     "@ionic/react-hooks": "^0.0.8",
     "bootstrap": "^4.4.1",
