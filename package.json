@@ -18,7 +18,7 @@
     "gatsby-plugin-react-helmet": "^3.2.4",
     "gatsby-plugin-typescript": "^2.3.3",
     "gatsby-react-router-scroll": "^3.0.11",
-    "gatsby-source-wordpress": "^3.2.5",
+    "gatsby-source-wordpress": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-github-ribbons": "^0.2.2",
